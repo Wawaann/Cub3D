@@ -74,10 +74,10 @@ You will find 3 maps in the `map` directory, fell free to create your own maps u
 ### Controls:
 - **Z**: Move forward
 - **S**: Move backward
-- **Q**: Rotate left
-- **D**: Rotate right
-- **Left Arrow**: Turn left
-- **Right Arrow**: Turn right
+- **Q**: Move left
+- **D**: Move right
+- **Left Arrow**: Rotate left
+- **Right Arrow**: Rotate right
 - **A**: Open the mini-map
 - **Shift**: Run
 - **Space**: Interact with objects (open doors, pick up keys)

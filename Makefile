@@ -54,7 +54,7 @@ CC		=	clang -o $(NAME) $(MLX_INCLUDE) $(INCLUDE) $(OBJ) $(LIB) $(FLAG)
 
 FLAG	=	-Wall -Wextra -Werror -g3
 
-NAME	=	Cub3D
+NAME	=	cub3D
 
 DEFAULT	=	\033[0m
 GREEN	=	\033[0;32m

@@ -84,6 +84,10 @@ You will find 3 maps in the `map` directory, fell free to create your own maps u
 - **M**: Use the mouse instead of keyboard for movement
 - **ESC**: Exit the game
 
+## 📖 Lore
+
+You wake up in a dark and creepy cave of Lowan the Malicious, who seems to have an unhealthy obsession with Monster energy drinks, as the cave is filled with empty barrels of it. Lowan the Malicious wants to play a game: if he catches you, you will have a very, very bad time. However, if you manage to find the hidden key and use it to open the door, you can escape and regain your freedom. Will you survive the maze and outsmart your captor?
+
 ## Authors
 - **Wawaann**
 - **CedricM11**

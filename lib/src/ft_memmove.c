@@ -6,7 +6,7 @@
 /*   By: ebigotte <ebigotte@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 15:25:35 by ebigotte          #+#    #+#             */
-/*   Updated: 2025/03/23 10:48:43 by ebigotte         ###   ########.fr       */
+/*   Updated: 2025/05/05 11:00:12 by ebigotte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,40 +38,3 @@ void	*ft_memmove(void *dest, const void *src, size_t size)
 	ft_memcpy(dest, src, size);
 	return (dest);
 }
-/*
-#define ELEMENT_COUNT 10
-#include <string.h>
-
-int main()
-{
-	int		data[] = {20, 30, 40, 50, 60, 70, 80, 90, 100, 0};
-	void	*source = (void *) data;
-	void	*destination = (void *) (data + 1);
-	size_t	size = (ELEMENT_COUNT - 1) * sizeof(int);
-
-	for(int i = 0; i < ELEMENT_COUNT; i++) {
-		printf("%d ", data[i]);
-	}
-	printf("\n");
-
-	ft_memmove(destination, source, size);
-
-	data[0] = 10;
-
-	for(int i = 0; i < ELEMENT_COUNT; i++) {
-		printf("%d ", data[i]);
-	}
-	printf("\n");
-	return 0;
-}
-int main()
-{
-	char str[] = "1234567890";
-	char dest[] = "0000000000";
-	size_t size = 10;
-
-	printf("Before memmove: %s\n", str);
-	ft_memmove(dest, str, size);
-	printf("After memmove: %s\n", str);
-	return 0;
-}*/

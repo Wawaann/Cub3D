@@ -48,8 +48,8 @@ MLX_INCLUDE	=	-I./.mlx
 
 UNAME := $(shell uname -s)
 
-MINILIB	=	libmlx_Darwin.a
-LIB		=	-L./lib -lft -L./.mlx -lmlx_Darwin -lXext -lX11 -lbsd -lm
+MINILIB	=	libmlx_Linux.a
+LIB		=	-L./lib -lft -L./.mlx -lmlx_Linux -lXext -lX11 -lbsd -lm
 CC		=	clang -o $(NAME) $(MLX_INCLUDE) $(INCLUDE) $(OBJ) $(LIB) $(FLAG)
 
 FLAG	=	-Wall -Wextra -Werror -g3
@@ -76,7 +76,7 @@ $(OBJ_DIR)%.o: src/%.c
 all:	$(NAME)
 
 $(NAME):	$(OBJ)
-	@if [ ! -e ./.mlx/libmlx_Darwin.a ]; then \
+	@if [ ! -e ./.mlx/libmlx_Linux.a ]; then \
 		echo "$(YELLOW)$(BOLD)Creating:$(DEFAULT) libmlx";	\
 		make -C .mlx/ --quiet;	\
 		echo "$(GREEN)$(BOLD)Done$(DEFAULT)";	\
